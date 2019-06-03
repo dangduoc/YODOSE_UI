@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: avo;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#logo img{
+    width:140px;
+}
+#logo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#login_area{
+    font-size: 1rem;
+    width: 300px;
+    margin: auto;
+}
+#login_area form{
+
+}
+#login_area form input[type="text"],#login_area form input[type="password"]{
+    background: transparent;
+    border-radius: 18px;
+    border-color: #44b2e8;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    height: 45px;
+    color:#666;
+}
+button[type="submit"]{
+    background-color: #54b6e6;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    border-radius: 18px;
+}
+.input_group{
+    position: relative;
+}
+.input_group input{
+    padding-left: 40px;
+}
+.input_group .input_icon{
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#forget_btn{
+    color: #666;
+    display: block;
+    font-size: 90%;
+    margin-top: -10px;
+    margin-bottom: 8px;
+}
+#bottom_company{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: avo_bold;
+    color: #fff;
+    font-size: 13px;
+}
